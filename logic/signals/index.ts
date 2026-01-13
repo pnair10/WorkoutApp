@@ -4,5 +4,5 @@
 export type { Workout, ExerciseEntry, ExerciseName, FocusVector } from "./schemas";
 export { WorkoutSchema, ExerciseEntrySchema, DateISOSchema, parseWorkout } from "./schemas";
 
-export { getFocusWeights, listExercises } from "./focusMapping";
+export { listExercises, getFocusWeights } from "./focusMapping";
 export { extractFocusVector } from "./featureExtract";
